@@ -1,0 +1,107 @@
+header{
+  .menu{
+    background-color: #FAFAFA;
+    padding: 24px 20px;
+    z-index: 1;
+
+    nav{
+      ul{
+        list-style: none;
+        float: right;
+
+        li{
+          display: inline-block;
+          margin-left: 20px;
+
+          a{
+            color: #1f1b1b;
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: 2px;
+
+            &:after {
+              bottom: 0;
+              content: "";
+              display: block;
+              height: 2px;
+              left: 50%;
+              background: $blue;
+              transition: width 0.3s ease 0s, left 0.3s ease 0s;
+              width: 0;
+              margin-top: 5px;
+            }
+
+            &:hover:after {
+              width: 100%;
+              left: 0;
+            }
+
+            @include transition(0.3s);
+          }
+        }
+      }
+    }
+  }
+
+  .banner {
+    margin: 150px auto 0;
+
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      width: 80%;
+      color: #333;
+      line-height: 1.4;
+
+      span{ color: $blue }
+
+      &:before{
+        content: '';
+        background: $blue;
+        height: 5px;
+        width: 45px;
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .social-icon{
+      list-style: none;
+      padding: 0;
+
+      li{
+        display: inline-block;
+        margin-right: 20px;
+
+        a{
+          font-size: 20px;
+
+          i{
+            &.fa-twitter{ color: #55acee }
+            &.fa-github-alt{ color: #131418 }
+            &.fa-linkedin{ color: #0077B5 }
+            &.fa-behance{ color: #1769ff }
+            &.fa-instagram{ color: #4c68d7 }
+
+            @include transition(0.6s);
+
+            &:hover{
+              -webkit-transform: rotate(360deg);
+              -moz-transform: rotate(360deg);
+              -ms-transform: rotate(360deg);
+              -o-transform: rotate(360deg);
+              transform: rotate(360deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px){
+  .banner h1{
+      font-size: 27px!important;
+      width: 100%!important;
+  }
+}

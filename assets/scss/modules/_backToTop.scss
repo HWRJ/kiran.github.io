@@ -1,0 +1,21 @@
+.backToTop {
+  display: none;
+  width: 3.6em;
+  background: #8db3f1;
+  height: 3.6em;
+  border-radius: 50%;
+  position: fixed;
+  padding: 20px 21px;
+  bottom: 0;
+  cursor: pointer;
+  right: 0;
+  float: right;
+  margin: 20px;
+  color: #ffffff;
+
+  @include transition(0.3s);
+
+  &:hover {
+    background: #7fa5e4;
+  }
+}

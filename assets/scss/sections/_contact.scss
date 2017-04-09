@@ -1,0 +1,80 @@
+#contact{
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+.contact{
+  text-align: center;
+
+  span{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #b9b9b9;
+    font-weight: 400;
+  }
+
+  .email{
+    margin-top: 45px;
+
+    a{
+      font-size: 40px;
+      letter-spacing: 4px;
+      color: #8db3f1;
+      font-weight: 700;
+      line-height: 1.6em;
+
+      @include transition(0.3s);
+
+      &:hover{ color: #7a98ca }
+    }
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    span{ color: $blue }
+  }
+
+  .social-icon{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 3em;
+
+    li{
+      display: inline-block;
+      margin: 0 10px;
+
+      a{
+        font-size: 25px;
+
+        i{
+          &.fa-twitter{ color: #55acee }
+          &.fa-github-alt{ color: #131418 }
+          &.fa-linkedin{ color: #0077B5 }
+          &.fa-instagram{ color: #4c68d7 }
+          &.fa-behance{ color: #1769ff }
+
+
+          @include transition(0.6s);
+
+          &:hover{
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact .email a{
+    font-size: 20px !important;
+  }
+}

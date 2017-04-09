@@ -1,0 +1,130 @@
+#works {
+    margin-top: 10em;
+    background-color: #8db3f1;
+    padding-bottom: 3em;
+    padding-top: 3em;
+
+    h4.page-title {
+        margin-bottom: 3em;
+
+        &:before {
+            content: '';
+            background: #ffffff;
+            height: 5px;
+            width: 30px;
+            display: inline-block;
+            margin-right: 1em;
+            margin-left: 15px;
+            position: relative;
+            top: -4px;
+        }
+    }
+}
+
+.work {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 30px;
+
+    a {
+        position: relative
+    }
+
+    .img {
+        width: 100%;
+
+        @include transition(0.3s);
+
+        &:hover {
+            -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+        }
+    }
+
+    .info {
+        background-color: #fff;
+        margin-top: -20px;
+        padding: 0 30px;
+        min-height: 10.45em;
+        padding-bottom: 1px;
+
+        ul.tags {
+            list-style: none;
+            padding-left: 0;
+            padding-top: 20px;
+
+            span {
+                color: #cccccc;
+
+                @include transition(0.3s);
+
+                &:hover {
+                    color: #a5a5a5
+                }
+            }
+        }
+
+        h2 {
+            text-decoration: none;
+            font-size: 23px;
+            color: #333;
+            letter-spacing: 0px;
+            font-weight: 800;
+            line-height: 30px;
+            text-align: left;
+            margin-bottom: 10px;
+
+            .label {
+                font-size: 13px;
+                font-weight: 300;
+                color: #fff;
+                padding: 4px 9px;
+                line-height: 1;
+                border-radius: 4px;
+                margin-top: 6px;
+                margin-left: 10px;
+                position: absolute;
+
+                &.github {
+                    background: #464646;
+                    width: 94px;
+                }
+                &.behance {
+                    background: #0087ff;
+                }
+                &.dribbble{
+                    background: #ea4c89;
+                }
+            }
+        }
+
+        p {
+            font-size: 13px;
+            color: #8d8d8d;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+    }
+}
+
+.work:hover {
+    @include transition(0.3s);
+
+    box-shadow: 4px 5px 13px 0px rgba(0, 0, 0, 0.12);
+
+    .img {
+        -webkit-transform: scale(1.08);
+        transform: scale(1.08);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work .label {
+        font-size: 11px !important;
+
+        &.github {
+            width: 82px !important;
+        }
+    }
+}

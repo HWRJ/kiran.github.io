@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="theme-color" content="#8db3f1">
+	<meta name='copyright' content="Yoginth">
+	<meta name="author" content="Yoginth">
+	<meta name="subject" content="Portfolio">
+	<meta name="DC.creator" content="Yoginth - https://yoginth.github.io">
+	<meta name="description" content="Official Website of Yoginth.">
+	<meta name="keywords" content="yoginth, portfolio, one-page, developer, front-end, back-end, open-source, autodidacte, ajax, programmation, freelance, auto-entrepreneur, ae, a-e, micro-entrepreneur, projets, technologies, veille, objectifs, clients, html5, css3, javascript, php, jquery, nodejs, cakephp3, laravel, wordpress, github, trello, gulp, heroku, photoshop">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Twitter Card Data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@yoginth98">
+	<meta name="twitter:title" content="Développeur web freelance à Amiens">
+	<meta name="twitter:description" content="Mon prénom est Yoginth à Amiens. Je suis développeur front-End & back-End. Créatif et perfectionniste.">
+	<meta name="twitter:creator" content="@yoginth98">
+	<meta name="twitter:domain" content="yoginth.github.io">
+	<meta name="twitter:image:src" content="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjcuMTU0IDI3LjE1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuMTU0IDI3LjE1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMTMuNTc3LDBDNi4wNzgsMCwwLjAwMSw2LjA4LDAuMDAxLDEzLjU3N2MwLDcuNSw2LjA3NywxMy41NzcsMTMuNTc2LDEzLjU3Nw0KCQkJYzcuNDk2LDAsMTMuNTc2LTYuMDc3LDEzLjU3Ni0xMy41NzdDMjcuMTUzLDYuMDgsMjEuMDczLDAsMTMuNTc3LDB6IE0xMy41MjUsMjQuNTkxYy02LjEwNywwLTExLjA2Mi00Ljk1Mi0xMS4wNjItMTEuMDYyDQoJCQlTNy40MTgsMi40NjYsMTMuNTI1LDIuNDY2czExLjA2Miw0Ljk1MiwxMS4wNjIsMTEuMDYyUzE5LjYzMywyNC41OTEsMTMuNTI1LDI0LjU5MXoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAzMDEwNDsiIGQ9Ik0xMy41MjUsNC4zMjZjLTUuMDU4LDAtOS4xNTIsNC4wOTgtOS4xNTIsOS4xNTJjMCw1LjA1Miw0LjA5NSw5LjE0OSw5LjE1Miw5LjE0OQ0KCQkJczkuMTUyLTQuMDk4LDkuMTUyLTkuMTQ5QzIyLjY3OCw4LjQyNCwxOC41ODMsNC4zMjYsMTMuNTI1LDQuMzI2eiBNMTUuNDYyLDE4LjY5OWMtMC4zNzksMC0wLjcwNi0wLjIxLTAuODc4LTAuNTIxbC0wLjAwOSwwLjAwNg0KCQkJbC0xLjM0My0zLjM2OWwtNC42MDktMy4yMzZsMC4wMDktMC4wMDdjLTAuMjIxLTAuMTg3LTAuMzYtMC40NjEtMC4zNi0wLjc2OGMwLTAuNTU1LDAuNDUtMS4wMDYsMS4wMDYtMS4wMDYNCgkJCWMwLjI3NSwwLDAuNTIxLDAuMTA4LDAuNzAyLDAuMjgzbDMuNTk0LDIuNzMybDAuNzgzLTQuMjljMC4wMS0wLjU0OCwwLjQ1Ny0wLjk4OCwxLjAwOC0wLjk4OGMwLjU1NCwwLDEuMDA0LDAuNDUsMS4wMDQsMS4wMDUNCgkJCWMwLDAuMTU2LTEuMTcsNS40NjEtMS4xNyw1LjQ2MXMxLjM3MiwzLjQ0NSwxLjM3MiwzLjU5QzE2LjU3LDE4LjE0NiwxNi4wMTYsMTguNjk5LDE1LjQ2MiwxOC42OTl6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=">
+
+	<!-- Open Graph Data -->
+	<meta property="og:image" content="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjcuMTU0IDI3LjE1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuMTU0IDI3LjE1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMTMuNTc3LDBDNi4wNzgsMCwwLjAwMSw2LjA4LDAuMDAxLDEzLjU3N2MwLDcuNSw2LjA3NywxMy41NzcsMTMuNTc2LDEzLjU3Nw0KCQkJYzcuNDk2LDAsMTMuNTc2LTYuMDc3LDEzLjU3Ni0xMy41NzdDMjcuMTUzLDYuMDgsMjEuMDczLDAsMTMuNTc3LDB6IE0xMy41MjUsMjQuNTkxYy02LjEwNywwLTExLjA2Mi00Ljk1Mi0xMS4wNjItMTEuMDYyDQoJCQlTNy40MTgsMi40NjYsMTMuNTI1LDIuNDY2czExLjA2Miw0Ljk1MiwxMS4wNjIsMTEuMDYyUzE5LjYzMywyNC41OTEsMTMuNTI1LDI0LjU5MXoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAzMDEwNDsiIGQ9Ik0xMy41MjUsNC4zMjZjLTUuMDU4LDAtOS4xNTIsNC4wOTgtOS4xNTIsOS4xNTJjMCw1LjA1Miw0LjA5NSw5LjE0OSw5LjE1Miw5LjE0OQ0KCQkJczkuMTUyLTQuMDk4LDkuMTUyLTkuMTQ5QzIyLjY3OCw4LjQyNCwxOC41ODMsNC4zMjYsMTMuNTI1LDQuMzI2eiBNMTUuNDYyLDE4LjY5OWMtMC4zNzksMC0wLjcwNi0wLjIxLTAuODc4LTAuNTIxbC0wLjAwOSwwLjAwNg0KCQkJbC0xLjM0My0zLjM2OWwtNC42MDktMy4yMzZsMC4wMDktMC4wMDdjLTAuMjIxLTAuMTg3LTAuMzYtMC40NjEtMC4zNi0wLjc2OGMwLTAuNTU1LDAuNDUtMS4wMDYsMS4wMDYtMS4wMDYNCgkJCWMwLjI3NSwwLDAuNTIxLDAuMTA4LDAuNzAyLDAuMjgzbDMuNTk0LDIuNzMybDAuNzgzLTQuMjljMC4wMS0wLjU0OCwwLjQ1Ny0wLjk4OCwxLjAwOC0wLjk4OGMwLjU1NCwwLDEuMDA0LDAuNDUsMS4wMDQsMS4wMDUNCgkJCWMwLDAuMTU2LTEuMTcsNS40NjEtMS4xNyw1LjQ2MXMxLjM3MiwzLjQ0NSwxLjM3MiwzLjU5QzE2LjU3LDE4LjE0NiwxNi4wMTYsMTguNjk5LDE1LjQ2MiwxOC42OTl6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:locale" content="en_EN">
+	<meta property="og:type" content="website">
+	<meta property="og:image:width" content="600">
+	<meta property="og:image:height" content="600">
+	<meta property="og:description" content="Mon prénom est Yoginth à Amiens. Je suis développeur front-End & back-End. Créatif et perfectionniste.">
+	<meta property="og:title"  content="I Teach CS50x.">
+	<meta property="og:site_name" content="Yoginth">
+	<meta property="og:url" content="https://yoginth.github.io">
+	<meta property="article:author" content="Yoginth">
+
+	<title>Yoginth | Star Developer of Internet</title>
+
+	<!-- Link Favicon -->
+	<link rel="shortcut icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjcuMTU0IDI3LjE1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuMTU0IDI3LjE1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMTMuNTc3LDBDNi4wNzgsMCwwLjAwMSw2LjA4LDAuMDAxLDEzLjU3N2MwLDcuNSw2LjA3NywxMy41NzcsMTMuNTc2LDEzLjU3Nw0KCQkJYzcuNDk2LDAsMTMuNTc2LTYuMDc3LDEzLjU3Ni0xMy41NzdDMjcuMTUzLDYuMDgsMjEuMDczLDAsMTMuNTc3LDB6IE0xMy41MjUsMjQuNTkxYy02LjEwNywwLTExLjA2Mi00Ljk1Mi0xMS4wNjItMTEuMDYyDQoJCQlTNy40MTgsMi40NjYsMTMuNTI1LDIuNDY2czExLjA2Miw0Ljk1MiwxMS4wNjIsMTEuMDYyUzE5LjYzMywyNC41OTEsMTMuNTI1LDI0LjU5MXoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAzMDEwNDsiIGQ9Ik0xMy41MjUsNC4zMjZjLTUuMDU4LDAtOS4xNTIsNC4wOTgtOS4xNTIsOS4xNTJjMCw1LjA1Miw0LjA5NSw5LjE0OSw5LjE1Miw5LjE0OQ0KCQkJczkuMTUyLTQuMDk4LDkuMTUyLTkuMTQ5QzIyLjY3OCw4LjQyNCwxOC41ODMsNC4zMjYsMTMuNTI1LDQuMzI2eiBNMTUuNDYyLDE4LjY5OWMtMC4zNzksMC0wLjcwNi0wLjIxLTAuODc4LTAuNTIxbC0wLjAwOSwwLjAwNg0KCQkJbC0xLjM0My0zLjM2OWwtNC42MDktMy4yMzZsMC4wMDktMC4wMDdjLTAuMjIxLTAuMTg3LTAuMzYtMC40NjEtMC4zNi0wLjc2OGMwLTAuNTU1LDAuNDUtMS4wMDYsMS4wMDYtMS4wMDYNCgkJCWMwLjI3NSwwLDAuNTIxLDAuMTA4LDAuNzAyLDAuMjgzbDMuNTk0LDIuNzMybDAuNzgzLTQuMjljMC4wMS0wLjU0OCwwLjQ1Ny0wLjk4OCwxLjAwOC0wLjk4OGMwLjU1NCwwLDEuMDA0LDAuNDUsMS4wMDQsMS4wMDUNCgkJCWMwLDAuMTU2LTEuMTcsNS40NjEtMS4xNyw1LjQ2MXMxLjM3MiwzLjQ0NSwxLjM3MiwzLjU5QzE2LjU3LDE4LjE0NiwxNi4wMTYsMTguNjk5LDE1LjQ2MiwxOC42OTl6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" type="image/x-icon">
+	<link rel="icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjcuMTU0IDI3LjE1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuMTU0IDI3LjE1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMTMuNTc3LDBDNi4wNzgsMCwwLjAwMSw2LjA4LDAuMDAxLDEzLjU3N2MwLDcuNSw2LjA3NywxMy41NzcsMTMuNTc2LDEzLjU3Nw0KCQkJYzcuNDk2LDAsMTMuNTc2LTYuMDc3LDEzLjU3Ni0xMy41NzdDMjcuMTUzLDYuMDgsMjEuMDczLDAsMTMuNTc3LDB6IE0xMy41MjUsMjQuNTkxYy02LjEwNywwLTExLjA2Mi00Ljk1Mi0xMS4wNjItMTEuMDYyDQoJCQlTNy40MTgsMi40NjYsMTMuNTI1LDIuNDY2czExLjA2Miw0Ljk1MiwxMS4wNjIsMTEuMDYyUzE5LjYzMywyNC41OTEsMTMuNTI1LDI0LjU5MXoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAzMDEwNDsiIGQ9Ik0xMy41MjUsNC4zMjZjLTUuMDU4LDAtOS4xNTIsNC4wOTgtOS4xNTIsOS4xNTJjMCw1LjA1Miw0LjA5NSw5LjE0OSw5LjE1Miw5LjE0OQ0KCQkJczkuMTUyLTQuMDk4LDkuMTUyLTkuMTQ5QzIyLjY3OCw4LjQyNCwxOC41ODMsNC4zMjYsMTMuNTI1LDQuMzI2eiBNMTUuNDYyLDE4LjY5OWMtMC4zNzksMC0wLjcwNi0wLjIxLTAuODc4LTAuNTIxbC0wLjAwOSwwLjAwNg0KCQkJbC0xLjM0My0zLjM2OWwtNC42MDktMy4yMzZsMC4wMDktMC4wMDdjLTAuMjIxLTAuMTg3LTAuMzYtMC40NjEtMC4zNi0wLjc2OGMwLTAuNTU1LDAuNDUtMS4wMDYsMS4wMDYtMS4wMDYNCgkJCWMwLjI3NSwwLDAuNTIxLDAuMTA4LDAuNzAyLDAuMjgzbDMuNTk0LDIuNzMybDAuNzgzLTQuMjljMC4wMS0wLjU0OCwwLjQ1Ny0wLjk4OCwxLjAwOC0wLjk4OGMwLjU1NCwwLDEuMDA0LDAuNDUsMS4wMDQsMS4wMDUNCgkJCWMwLDAuMTU2LTEuMTcsNS40NjEtMS4xNyw1LjQ2MXMxLjM3MiwzLjQ0NSwxLjM3MiwzLjU5QzE2LjU3LDE4LjE0NiwxNi4wMTYsMTguNjk5LDE1LjQ2MiwxOC42OTl6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" type="image/x-icon">
+
+	<!-- Link CSS  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<header>
+		<div class="menu">
+			<div class="col-xs-2 col-sm-2 col-md-2">
+				<img class="logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMjcuMTU0IDI3LjE1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuMTU0IDI3LjE1NDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIHN0eWxlPSJmaWxsOiMwMzAxMDQ7IiBkPSJNMTMuNTc3LDBDNi4wNzgsMCwwLjAwMSw2LjA4LDAuMDAxLDEzLjU3N2MwLDcuNSw2LjA3NywxMy41NzcsMTMuNTc2LDEzLjU3Nw0KCQkJYzcuNDk2LDAsMTMuNTc2LTYuMDc3LDEzLjU3Ni0xMy41NzdDMjcuMTUzLDYuMDgsMjEuMDczLDAsMTMuNTc3LDB6IE0xMy41MjUsMjQuNTkxYy02LjEwNywwLTExLjA2Mi00Ljk1Mi0xMS4wNjItMTEuMDYyDQoJCQlTNy40MTgsMi40NjYsMTMuNTI1LDIuNDY2czExLjA2Miw0Ljk1MiwxMS4wNjIsMTEuMDYyUzE5LjYzMywyNC41OTEsMTMuNTI1LDI0LjU5MXoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAzMDEwNDsiIGQ9Ik0xMy41MjUsNC4zMjZjLTUuMDU4LDAtOS4xNTIsNC4wOTgtOS4xNTIsOS4xNTJjMCw1LjA1Miw0LjA5NSw5LjE0OSw5LjE1Miw5LjE0OQ0KCQkJczkuMTUyLTQuMDk4LDkuMTUyLTkuMTQ5QzIyLjY3OCw4LjQyNCwxOC41ODMsNC4zMjYsMTMuNTI1LDQuMzI2eiBNMTUuNDYyLDE4LjY5OWMtMC4zNzksMC0wLjcwNi0wLjIxLTAuODc4LTAuNTIxbC0wLjAwOSwwLjAwNg0KCQkJbC0xLjM0My0zLjM2OWwtNC42MDktMy4yMzZsMC4wMDktMC4wMDdjLTAuMjIxLTAuMTg3LTAuMzYtMC40NjEtMC4zNi0wLjc2OGMwLTAuNTU1LDAuNDUtMS4wMDYsMS4wMDYtMS4wMDYNCgkJCWMwLjI3NSwwLDAuNTIxLDAuMTA4LDAuNzAyLDAuMjgzbDMuNTk0LDIuNzMybDAuNzgzLTQuMjljMC4wMS0wLjU0OCwwLjQ1Ny0wLjk4OCwxLjAwOC0wLjk4OGMwLjU1NCwwLDEuMDA0LDAuNDUsMS4wMDQsMS4wMDUNCgkJCWMwLDAuMTU2LTEuMTcsNS40NjEtMS4xNyw1LjQ2MXMxLjM3MiwzLjQ0NSwxLjM3MiwzLjU5QzE2LjU3LDE4LjE0NiwxNi4wMTYsMTguNjk5LDE1LjQ2MiwxOC42OTl6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" width="30" alt="Logo Yoginth(Y)">
+			</div>
+
+			<div class="col-xs-10 col-sm-10 col-md-10">
+				<nav>
+					<ul>
+						<li class="animated fadeInUp"><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="banner">
+			<div class="container">
+				<h1>I Teach CS50x <span>&</span> Former Founder and CEO at <span>FriendsTub</span>. Star Developer of Internet!</h1>
+
+				<ul class="social-icon animated fadeIn">
+					<li><a href="https://www.linkedin.com/in/yoginth" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/yoginth98" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://github.com/yoginth" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.behance.net/yoginth" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/yoginth/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<section id="me">
+		<div class="container">
+			<div class="me">
+				<div class="col-md-7">
+					<h4 class="page-title">About Me</h4>
+
+					<div class="text">
+						<h3>Front-End & Back-End Developer.</h3>
+						<p>Passionate about new technologies of Web <span>&</span> self-taught in the integration <span>&</span> design of websites. I like to discover, share new knowledge <span>&</span> integrate them into my various achievements.</p>
+
+						<h4 class="page-title small">Development</h4>
+
+						<ul class="skills-dev">
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>HTML 5</span>
+								</span>
+
+								<i class="devicon-html5-plain colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>CSS 3</span>
+								</span>
+
+								<i class="devicon-css3-plain colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Javascript</span>
+								</span>
+
+								<i class="devicon-javascript-plain colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>PHP 7</span>
+								</span>
+
+								<i class="devicon-php-plain colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Less</span>
+								</span>
+
+								<i class="devicon-less-plain-wordmark colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Sass</span>
+								</span>
+
+								<i class="devicon-sass-original colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>jQuery</span>
+								</span>
+
+								<i class="devicon-jquery-plain colored"></i>
+							</li>
+						</ul>
+
+						<h4 class="page-title small">Tools</h4>
+
+						<ul class="skills-tools">
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Gulp</span>
+								</span>
+
+								<i class="devicon-gulp-plain colored"></i>
+							</li>
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Git</span>
+								</span>
+
+								<i class="devicon-git-plain colored"></i>
+							</li>
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Trello</span>
+								</span>
+
+								<i class="devicon-trello-plain colored"></i>
+							</li>
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Heroku</span>
+								</span>
+
+								<i class="devicon-heroku-original colored"></i>
+							</li>
+						</ul>
+
+						<h4 class="page-title small">Graphics / Webdesign</h4>
+
+						<ul class="skills-soft">
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Photoshop</span>
+								</span>
+
+								<i class="devicon-photoshop-plain colored"></i>
+							</li>
+
+							<li class="has-tooltip">
+								<span class="tooltip">
+									<span>Illustrator</span>
+								</span>
+
+								<i class="devicon-illustrator-plain colored"></i>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-5 visible-md visible-lg">
+					<img class="me-picture" src="https://secure.gravatar.com/avatar/ef5eb22b653730b5d7d7c32a73ff64e7?s=280" alt="Photo of Yoginth">
+
+					<ul class="anchor">
+						<li><span class="year">01/09/1998</span> Birth <em>It Was cool</em></li>
+						<li><span class="year">03/02/2014</span> Registered Account at <em>Github!</em></li>
+						<li><span class="year">24/02/2016</span> Launched <em>FriendsTub</em></li>
+						<li><span class="year">15/07/2016</span> Became a Staff at <em>CS50x</em></li>
+						<li><span class="year">27/01/2017</span> Quits <em>FriendsTub</em></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="works">
+		<div class="container">
+			<h4 class="page-title">Projects</h4>
+
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="work">
+					<a href="https://github.com/yoginth/friendstub" target="_blank">
+						<img src="https://github.com/yoginth/yoginth.github.io/blob/50c456130f315664be3ed1a9b248fe67b2d55536/assets/img/works/friendstub.jpg?raw=true" alt="FriendsTub" class="img">
+
+						<div class="info">
+							<ul class="tags">
+								<span>#php</span>
+								<span>#mysql</span>
+								<span>#js</span>
+								<span>#css</span>
+								<span>#html</span>
+							</ul>
+
+							<h2>FriendsTub <span class="label github">Social Network</span></h2>
+							<p>Social Network alternative to Facebook and Twitter.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="work">
+					<a href="https://github.com/yoginth/ide/tictactoe.c" target="_blank">
+						<img src="https://github.com/yoginth/yoginth.github.io/blob/50c456130f315664be3ed1a9b248fe67b2d55536/assets/img/works/tictactoe.jpg?raw=true" alt="TicTacToe" class="img">
+
+						<div class="info">
+							<ul class="tags">
+								<span>#AI</span>
+								<span>#C</span>
+							</ul>
+							<h2>Tic Tac Toe(AI) <span class="label github">Open-source</span></h2>
+							<p>TicTacToe Artificial Intelligence CLI Game, with Single and Double Player.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="work">
+					<a href="https://github.com/yoginth/ide/cs50" target="_blank">
+						<img src="https://github.com/yoginth/yoginth.github.io/blob/50c456130f315664be3ed1a9b248fe67b2d55536/assets/img/works/finance.png?raw=true" alt="Finance" class="img">
+
+						<div class="info">
+							<ul class="tags">
+								<span>#CS50</span>
+								<span>#php</span>
+								<span>#mysql</span>
+								<span>#php</span>
+								<span>#css</span>
+								<span>#js</span>
+							</ul>
+
+							<h2>CS50 Finance <span class="label github">CS50 Fair</span></h2>
+							<p>CS50 Final Project, Embedded with Yahoo Finance API.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="work">
+					<a href="https://yoginth.github.io/CS50-Final-Project" target="_blank">
+						<img src="assets/car.jpg" alt="FriendsTub" class="img">
+
+						<div class="info">
+							<ul class="tags">
+								<span>#javascript</span>
+								<span>#jquery</span>
+								<span>#css</span>
+								<span>#html</span>
+							</ul>
+
+							<h2>Car Doodle <span class="label github">Car Doodle</span></h2>
+							<p>Draw a Doddle with the help of moving car.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-6">
+				<div class="work">
+					<a href="https://pastetub.com" target="_blank">
+						<img src="assets/book.jpg" alt="FriendsTub" class="img">
+
+						<div class="info">
+							<ul class="tags">
+								<span>#php</span>
+								<span>#mysql</span>
+								<span>#js</span>
+								<span>#css</span>
+								<span>#html</span>
+							</ul>
+
+							<h2>PasteTub <span class="label github">PasteTub</span></h2>
+							<p>Pastetub is a Online Notes Taking Platform.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+	</section>
+
+	<section id="contact">
+		<div class="container center">
+			<h4 class="page-title">Contact Me</h4>
+
+			<div class="contact">
+				<span>I am taking new projects. Would you like to discuss yours ?</span>
+
+				<div class="email">
+					<a href="mailto:yoginth@zoho.com">yoginth@zoho.com</a>
+				</div>
+
+				<ul class="social-icon">
+					<li><a href="https://www.linkedin.com/in/yoginth" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/yoginth98" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="https://github.com/yoginth" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.behance.net/yoginth" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/yoginth/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>Hosted with <i class="fa fa-heart" aria-hidden="true"></i> in <a href="http://github.com/">Github</a>.</p>
+		</div>
+		<div class="backToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+	</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-viewport-checker/1.8.7/jquery.viewportchecker.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+<html>
